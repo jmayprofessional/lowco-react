@@ -2,7 +2,7 @@ import React from 'react';
 
 const PricingSection = () => {
   return (
-    <section className="bg-gray-100 py-12">
+    <section className="bg-navBackground-color py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-wrap -mx-4">
           {/* Card 1 */}
@@ -15,7 +15,7 @@ const PricingSection = () => {
                 <span className="text-gray-600 ml-1">/month</span>
               </div>
               <p className="text-gray-600 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded mt-4">
+              <button className="bg-orange-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded mt-4">
                 Select
               </button>
               </div>
@@ -32,7 +32,7 @@ const PricingSection = () => {
                 <span className="text-gray-600 ml-1">/month</span>
               </div>
               <p className="text-gray-600 mb-4">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded mt-4">
+              <button className="bg-orange-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded mt-4">
                 Select
               </button>
               </div>
@@ -49,7 +49,7 @@ const PricingSection = () => {
                 <span className="text-gray-600 ml-1">/month</span>
               </div>
               <p className="text-gray-600 mb-4">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
-              <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded mt-4">
+              <button className="bg-orange-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded mt-4">
                 Select
               </button>
               </div>
