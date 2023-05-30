@@ -13,7 +13,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div>
         <NavigationBar />
-        <HeroSection />
+        <HeroSection backgroundImage="fish_josh.png" />
         <PricingSection />
         <ContentSection />
         <LogoCloud />
