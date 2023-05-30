@@ -9,6 +9,13 @@ import Gallery from './components/gallery'
 import Footer from './components/footer'
 
 export default function Home() {
+
+  const logoData = [
+    { id: 1, image: 'Shimano_logo.png', alt: 'Shimano Logo' },
+    { id: 2, image: 'gloomis-logo.png', alt: 'G.Loomis Logo' },
+    { id: 3, image: 'powerPro-logo.png', alt: 'PowerPro Logo' },
+    // Add more logos here
+  ];
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div>
@@ -25,7 +32,7 @@ export default function Home() {
           featureThree={"Pay as you go model, you do your thing until you don't want to. Buck stops there, no traps, no gimmicks, we're all biz here so we get it. Do your thing, do what's best for the biz and your fam."}
           contentImage={"LowCo Guide Sites.png"}
           />
-        <LogoCloud />
+        <LogoCloud logoData={logoData}/>
         <TestimonialCarousel />
         <Gallery />
         <Footer />
