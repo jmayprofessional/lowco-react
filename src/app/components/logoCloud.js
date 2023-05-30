@@ -8,7 +8,7 @@ const LogoCloud = ({ logoData }) => {
           key={logoData.id}
           src={logoData.image}
           alt={logoData.alt}
-          className="w-24 h-24 object-contain mx-4 my-2"
+          className="w-48 h-48 object-contain mx-4 my-2"
         />
       ))}
     </div>
